@@ -1,24 +1,36 @@
 package academy.devdojo.maratonajava.introducao;
 
 public class Aula18ArraysMultidimensionais {
-    public static void main(String[]args) {
-        int[][] dias = new int[3][3];
+    public static void main(String[]args){
+        int calendario[][] = new int[4][4];
 
-        dias[0][0] = 1;
-        dias[0][1] = 2;
-        dias[0][2] = 3;
+        // Verão
+        calendario [0][0] = 31;
+        calendario [0][1] = 28;
+        calendario [0][2] = 31;
+        calendario [0][3] = 30;
 
-        dias[1][0] = 4;
-        dias[1][1] = 5;
-        dias[1][2] = 6;
+        // Outono
+        calendario [1][0] = 31;
+        calendario [1][1] = 30;
+        calendario [1][2] = 31;
+        calendario [1][3] = 31;
 
-        dias[2][0] = 7;
-        dias[2][1] = 8;
-        dias[2][2] = 9;
+        // Inverno
+        calendario [2][0] = 30;
+        calendario [2][1] = 31;
+        calendario [2][2] = 30;
+        calendario [2][3] = 31;
 
-        for (int i = 0; i < dias.length; i++){
-            for (int j = 0; j < dias[0].length; j++){
-                System.out.println(dias[i][j]);
+        // Primavera
+        calendario [3][0] = 30;
+        calendario [3][1] = 31;
+        calendario [3][2] = 30;
+        calendario [3][3] = 31;
+
+        for(int i = 0; i < calendario.length; i++){
+            for (int j = 0; j < calendario[i].length; j++){
+                System.out.println(calendario[i][j]);
             }
         }
     }
