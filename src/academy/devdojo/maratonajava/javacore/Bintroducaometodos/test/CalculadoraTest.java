@@ -14,5 +14,8 @@ public class CalculadoraTest {
 
         calculadora.multiplicaDoisNumeros(10,5);
         System.out.println("Fim do metodo multiplicaDoisNumeros \n");
+
+        double result = calculadora.divideDoisNumeros(50,4);
+        System.out.println(result);
     }
 }
