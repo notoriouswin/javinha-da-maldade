@@ -13,9 +13,9 @@ public class FuncionarioTest {
         funcionarioFirst.salario = new double[]{2356.50,2149.59,1250.00};
 
         Funcionario funcionarioSecond = new Funcionario();
-        funcionarioFirst.nome = "Iris";
-        funcionarioFirst.idade = 25;
-        funcionarioFirst.salario = new double[]{5450.00,8750.50,1000.00};
+        funcionarioSecond.nome = "Iris";
+        funcionarioSecond.idade = 25;
+        funcionarioSecond.salario = new double[]{5450.00,8750.50,1000.00};
 
         ImpressoraFuncionario.imprimir(funcionarioFirst);
         mediaSalario.tirarMediaSalarial();
