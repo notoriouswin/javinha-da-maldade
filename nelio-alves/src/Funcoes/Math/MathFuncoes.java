@@ -1,4 +1,4 @@
-package Math;
+package Funcoes.Math;
 
 public class MathFuncoes{
 
@@ -34,5 +34,16 @@ public class MathFuncoes{
     public void arredondarNumeroParaBaixo(double x){
         double resultado = Math.floor(x);
         System.out.printf("O numero %s arredondado para baixo é %s",x,resultado);
+    }
+
+    public double gerarNumeroPi(){
+        double x = Math.PI;
+        return x;
+    }
+
+    public double retornaAreaDeUmCirculo(double x,double y){
+        double raioAoQuadrado = Math.pow(x,2);
+        double resultado = y * raioAoQuadrado;
+        return resultado;
     }
 }
