@@ -25,4 +25,14 @@ public class MathFuncoes{
         System.out.printf("O valor arredondado de %s é %s %n",x,resultado);
         System.out.println("——————————————————————————————");
     }
+
+    public void arredondarNumeroParaCima(double x){
+        double resultado =  Math.ceil(x);
+        System.out.printf("O numero %s arredondado para cima é %s %n",x,resultado);
+    }
+
+    public void arredondarNumeroParaBaixo(double x){
+        double resultado = Math.floor(x);
+        System.out.printf("O numero %s arredondado para baixo é %s",x,resultado);
+    }
 }
