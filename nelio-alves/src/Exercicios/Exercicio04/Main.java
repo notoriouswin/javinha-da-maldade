@@ -1,7 +1,6 @@
-package Exercicios.Exercicio03;
-
-import java.util.Locale;
+package Exercicios.Exercicio04;
 import java.util.Scanner;
+import java.util.Locale;
 
 public class Main {
     public static void main(String[] args){
@@ -9,10 +8,10 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         int numero = scan.nextInt();
-        if (numero < 0){
-            System.out.println("NEGATIVO");
+        if ((numero % 2) == 0 ){
+            System.out.println("PAR");
         } else {
-            System.out.println("POSITIVO");
+            System.out.println("IMPAR");
         }
     }
 }
